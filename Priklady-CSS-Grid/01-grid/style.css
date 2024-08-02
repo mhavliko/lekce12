@@ -22,3 +22,9 @@
 
 /* ---------------------------------------------------- */
 
+.kontejner {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 200px repeat(5, 1fr);
+  grid-template-rows: 100px 1fr 2fr;
+}
